@@ -73,10 +73,10 @@ function showSlides(n) {
 var video = document.getElementById("myVideo");
 
 // Get the button
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("pauseButton");
 
 // Pause and play the video, and change the button text
-function myFunction() {
+function pauseVideo() {
   if (video.paused) {
     video.play();
     btn.innerHTML = "Pause";

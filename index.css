@@ -592,7 +592,7 @@ body:not(.user-is-tabbing) a:focus {
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 100%;
+  min-width: 50%;
   min-height: 100%;
 }
 
@@ -607,19 +607,19 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 /* Style the button used to pause/play the video */
-#myBtn {
-  width: 200px;
-  font-size: 18px;
-  padding: 10px;
-  border: none;
-  background: #FFF;
-  color: #000;
-  cursor: pointer;
-}
+/* #myBtn { */
+/*   width: 200px; */
+  /* font-size: 18px; */
+  /* padding: 10px; */
+  /* border: none; */
+  /* background: #FFF; */
+/*   color: #000; */
+/*   cursor: pointer; */
+/* } */
 
-#myBtn:hover {
-  background: #ddd;
-  color: black;
+/* #myBtn:hover { */
+/*   background: #ddd; */
+/*   color: black; */
 } 
 
 /* --------------------------------------- */
