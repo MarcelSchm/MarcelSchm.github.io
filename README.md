@@ -27,10 +27,10 @@ To View the live site click [here &rarr;](https://marcelschm.github.io/)
 You'll need [Git](https://git-scm.com) to be installed on your computer. 
 ```
 # Clone this repository
-$ git clone https://github.com/nisarhassan12/portfolio-template
+$ git clone https://github.com/MarcelSchm/MarcelSchm.github.io
 ```
 
-If you don't have Git installed or you don't like using the terminal then you can download the [zip](https://github.com/nisarhassan12/portfolio-template/archive/master.zip) and extract that and open the extracted folder in the code editor of your your choice.
+If you don't have Git installed or you don't like using the terminal then you can download the [zip](https://github.com/MarcelSchm/MarcelSchm.github.io/archive/master.zip) and extract that and open the extracted folder in the code editor of your your choice.
 
 ## Editing the Template 🔨
 
@@ -45,10 +45,10 @@ In all of the places where you're supposed to fill your information you'll find 
     <div class="header__text">
         <h1 class="heading-primary">
         <!-- Replace the following name with your name -->
-        <span>Syed Ali Hussnain</span>
+          <span>Marcel Schmid</span>
         </h1>
         <!-- Put a small paragraph about yourself -->
-        <p>A Web Developer based in Lahore, Pakistan.</p>
+        <p>A Software- & Systemtest Engineer based in Lübeck, Germany.</p>
         <a href="#contact" class="btn btn--pink">Get in touch</a>
     </div>
 </div>
@@ -59,36 +59,36 @@ In all of the places where you're supposed to fill your information you'll find 
 Each div with class `work__box` represents a project, replace the contents of the all the tags with the information of your projects.
 
 ```html
-<div class="work__box">
-    <div class="work__text">
-    <h3>Portfolio Template</h3>
-    <p>
-        A free Open Source Portfolio for anyone to use for free.
-    </p>
-    <ul class="work__list">
-        <li>HTML</li>
-        <li>SCSS</li>
-        <li>JavaScript</li>
-        <li>Parcel</li>
-    </ul>
+		  <div class="work__box">
+            <div class="work__text">
+              <h3>Certified Tester Advanced Level - Test Manager (CTAL-TM)</h3>
+              <p>
+                ISTQB Certificate for the Advanced Level - Test Manager
+              </p>
+              <ul class="work__list">
+                <li>Testing process</li>
+                <li>Test management</li>
+                <li>Risk-based testing</li>
+                <li>Test documentation</li>
+                <li>Test estimation</li>
+                <li>Standards and metrics</li>
+                <li>Reviews for the Test Manager</li>
+                <li>Defect management</li>
+                <li>Improving the test process</li>
+                <li>Test tools and automation for the Test Manager</li>
+                <li>People Skills and team composition</li>
+              </ul>
+              <div class="work__links">
+                <a href="https://app.skillsclub.com/credential/10344-c8310b3cb1c649a51098985881e4461b346e44015aec1f7cbacde82531e07c78?locale=de&badge=true" class="link__text">
+                  Visit Digital Badge <span>&rarr;</span>
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/21-CTAL-TM-Digital Badge.png" class="work__image" alt="CTAL-TM" />
+            </div>
+          </div>
 
-    <div class="work__links">
-        <a href="#" class="link__text">
-        Visit Site <span>&rarr;</span>
-        </a> 
-        <a href="https://github.com/nisarhassan12/portfolio" target="_blank">
-        <img src="./images/github.svg" class="work__code" alt="GitHub">
-        </a>
-    </div>
-    </div>
-    <div class="work__image-box">
-        <img
-            src="./images/project-1.png"
-            class="work__image"
-            alt="Project 1"
-        />
-    </div>
-</div>
 ```
 
 For changing the screenshot:
@@ -144,7 +144,7 @@ For changing the screenshot:
                 <!-- Add a nice photo of yourself -->
                 <img
                 class="about__photo"
-                src="./images/syed-ali-hussnain.jpg"
+                src="./images/kuka.jpg"
                 alt=""
                 />
             </div>
@@ -164,12 +164,12 @@ For changing the screenshot:
         <h2>Get in Touch</h2>
         <div class="contact__info">
           <p>
-            Are you looking for a fast-performing and user-friendly website to
-            represent your product or business? or looking for any kind of
-            consultation? or want to ask questions? or have some advice for me
-            or just want to say "Hi 👋" in any case feel free to Let me know. I
-            will do my best to respond back. 😊 The quickest way to reach out to
-            me is via an email.
+            Are you looking for a skilled Test Engineer with ISTQB Certificates and a look for details?
+			Or looking for any kind of
+			consultation? or want to ask questions? or have some advice for me
+			or just want to say "Hi 👋" in any case feel free to let me know. I
+			will do my best to respond back. 😊 The quickest way to reach out to
+			me is via an email.
           </p>
           <!-- Replace the email with yours -->
           <a href="mailto:you@example.com" class="btn">you@example.com</a>
@@ -189,25 +189,20 @@ For changing the screenshot:
         <!-- Update the links to point to your accounts -->
         <ul class="footer__social-links">
             <li class="footer__social-link-item">
-                <a href="https://twitter.com/nisarhassan12/">
-                    <img src="./images/twitter.svg" class="footer__social-image" alt="Twitter">
-                </a>
-            </li>
-            <li class="footer__social-link-item">
-                <a href="https://github.com/nisarhassan12/">
-                    <img src="./images/github.svg" class="footer__social-image" alt="Github">
-                </a>
-            </li>
-            <li class="footer__social-link-item">
-                <a href="https://codepen.io/nisar_hassan">
-                    <img src="./images/codepen.svg" class="footer__social-image" alt="Codepen">
-                </a>
-            </li>
-            <li class="footer__social-link-item">
-                <a href=https://www.linkedin.com/in/nisar-hassan-naqvi-413466199/">
-                    <img src="./images/linkedin.svg" class="footer__social-image" alt="Linkedin">
-                </a>
-            </li>
+          <a href="https://www.instagram.com/schmiddi_m/" title="Link to Instagram Profile">
+            <img src="./images/Instagram_simple_icon.svg" class="footer__social-image" alt="Instagram">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://github.com/MarcelSchm" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.xing.com/profile/Marcel_Schmid37">
+            <img src="./images/Xing_logo.svg" title="Link to Xing Profile" class="footer__social-image" alt="Xing">
+          </a>
+        </li>
         </ul>
 
         <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
