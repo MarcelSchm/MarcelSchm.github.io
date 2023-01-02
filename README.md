@@ -2,7 +2,7 @@
 
 ### A beautiful minimal and accessible portfolio template for Developers ✨.
 
-To View the live site click [here &rarr;]([https://portfolio-template.surge.sh](https://marcelschm.github.io/))
+To View the live site click [here &rarr;](https://marcelschm.github.io/)
 
 ![Portfolio Gif](/images/portfolio.gif)
 
