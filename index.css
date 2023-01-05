@@ -636,6 +636,7 @@ body:not(.user-is-tabbing) a:focus {
 .client__logo {
     height: 6.5rem;
     max-width: 18rem;
+	filter: invert(100%) grayscale(100%) opacity(.8);
 }
 
 @media(max-width: 1240px) {
