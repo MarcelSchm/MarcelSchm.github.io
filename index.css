@@ -350,7 +350,6 @@ body:not(.user-is-tabbing) a:focus {
     margin-right: var(--gutter-medium);
 }
 
-@media(max-width: 500px) {
 /* Hide the link that should open and close the topnav on small screens */
  .nav a.icon {
   display: none;
