@@ -37,22 +37,31 @@
 
   <!-- ***** Header ***** -->
 
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-		   <li class="nav__item"><a href="#Interests" class="nav__link">Interests</a></li>
-          <li class="nav__item"><a href="#Companies" class="nav__link">Companies</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
+	<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-        </ul>
-      </nav>
+  <header class="header" role="banner" id="top">
+	<div class="row">
+		<div class="nav" id="myTopnav">
+			<a href="#work">Work</a>
+			<a href="#Interests">Interests</a>
+			<a href="#Companies">Companies</a>
+			<a href="#about">About</a>
+			<a href="#contact">Contact</a>
+  			<a href="javascript:void(0);" class="icon" onclick="toggleResponsiveDesignTopNav()">
+				<i class="fa fa-bars"></i>
+			</a>
+      <!-- <nav class="nav" role="navigation" id="myTopnav"> -->
+        <!-- <ul class="nav__items"> -->
+          <!-- <li class="nav__item"><a href="#work" class="nav__link">Work</a></li> -->
+		  <!-- <li class="nav__item"><a href="#Interests" class="nav__link">Interests</a></li> -->
+          <!-- <li class="nav__item"><a href="#Companies" class="nav__link">Companies</a></li> -->
+          <!-- <li class="nav__item"><a href="#about" class="nav__link">About</a></li> -->
+          <!-- <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li> -->
+		  <!-- <li class="nav__item"><a href="javascript:void(0);" class="icon" onclick="toggleResponsiveDesignTopNav()"><i class="fa fa-bars"></i></a> -->
+
+        <!-- </ul> -->
+      <!-- </nav> -->
     </div>
     <div class="header__text-box row">
       <div class="header__text">
@@ -65,6 +74,7 @@
         <a href="#contact" class="btn btn--pink">Get in touch</a>
       </div>
     </div>
+	</div>
   </header>
 
   <main role="main">

@@ -350,23 +350,30 @@ body:not(.user-is-tabbing) a:focus {
     margin-right: var(--gutter-medium);
 }
 
-@media(max-width: 500px) {
-    .nav {
-        justify-content: center;
-    }
+/* Hide the link that should open and close the topnav on small screens */
+ .nav a.icon {
+  display: none;
 }
 
-@media(max-width: 400px) {
-    .nav__item:not(:last-child) {
-        margin-right: var(--gutter-normal);
-    }
-}
+/* @media(max-width: 600px) { */
+    /* .nav { */
+        /* justify-content: center; */
+    /* } */
+/* } */
 
-@media(max-width: 300px) {
-    .nav {
-        font-size: var(--font-size-small);
-    }
-}
+/* @media(max-width: 500px) { */
+    /* .nav__item:not(:last-child) { */
+        /* margin-right: var(--gutter-normal); */
+    /* } */
+/* } */
+
+/* @media(max-width: 440px) { */
+    /* .nav { */
+        /* font-size: var(--font-size-small); */
+    /* } */
+/* } */
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+
 
 .nav__link {
     position: relative;
@@ -398,6 +405,57 @@ body:not(.user-is-tabbing) a:focus {
     height: 2px;
     background: var(--pink);
 }
+.nav a {
+  float: left;
+  display: block;
+  /* color: #f2f2f2; */
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: --font-size-normal;
+  position: relative;
+    display: inline-block;
+    /* padding: 1rem 0; */
+    color: inherit;
+    transition: all .2s;
+}
+
+.nav a:hover {
+  color: var(--pink);
+}
+
+.nav a.hover::after {
+    right: 0;
+    height: 2px;
+    background: var(--pink);
+}
+
+@media screen and (max-width: 600px) {
+  .nav a {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav.responsive {
+	  position: relative;
+	  display: flex;
+	  flex-direction: column;
+	  }
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 20px;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+	flex-direction: column;
+  }
+}
 
 /* --------------------------------------- */
 /* ----- Header ----- */
@@ -415,8 +473,8 @@ body:not(.user-is-tabbing) a:focus {
 
 .header__text {
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 80%;
+    transform: translateY(-100%);
 }
 
 .header__text p {
