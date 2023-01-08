@@ -214,6 +214,11 @@
 					<img src="./images/Drone/kollmar_beach.jpg" style="width:100%">
 					<div class="text">Germany - Kollmar Beach</div>
 				</div>
+				
+				<div class="mySlides fade">
+					<img src="./images/Drone/magdeburg bridge.jpg" style="width:100%">
+					<div class="text">Germany - Magdeburg lift bridge</div>
+				</div>
 		  
 				<!-- Next and previous buttons -->
 				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -230,14 +235,13 @@
 				<span class="dot" onclick="currentSlide(4)"></span>
 				<span class="dot" onclick="currentSlide(5)"></span>
 				<span class="dot" onclick="currentSlide(6)"></span>
+				<span class="dot" onclick="currentSlide(7)"></span>
 			</div> 
 		<!-- </div> -->
 
 			<div class="slideshow-container">   
 				<!-- The video -->
-				<video autoplay muted loop id="myVideo">
-				<source src="./images/cookie cutter.mp4" type="video/mp4">
-				</video>
+
 
 				<!-- Optional: some overlay text to describe the video -->
 				<div class="content">
@@ -248,6 +252,9 @@
 					In the meantime, I call a Snapmaker 2.0 my own.
 					Besides 3D printing I also like to work with the CNC module of the Snapmaker and the laser engraving module. 
 					</p>
+					<video autoplay muted loop id="myVideo">
+					<source src="./images/cookie cutter.mp4" type="video/mp4">
+					</video>
 					<!-- Use a button to pause/play the video with JavaScript -->
 					<button  class="btn btn--pink" onclick="pauseVideo()" id ="pauseButton" >Pause</button>
 				</div> 
@@ -261,7 +268,7 @@
     <section class="client" id="Companies">
       <div class="row">
         <h2>Companies</h2>
-        <div class="client__logos">
+        <div class="client__logos" style="    display: flex; justify-content: space-between; filter: invert(100%) grayscale(100%) opacity(.8);">
           <!-- Add logos of the Client or companies you'have worked with. -->
           <img src="./images/Foba.png" class="client__logo" />
 		  <img src="./images/Videojet.png" class="client__logo" />
@@ -294,7 +301,7 @@
 
           <div class="about__photo-container">
             <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/Kuka Messe.jpg" alt="" />
+            <img class="about__photo" src="./images/Kuka Messe.jpg" alt="My Profile Photo" />
           </div>
         </div>
       </div>

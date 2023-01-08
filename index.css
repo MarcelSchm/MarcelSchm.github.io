@@ -594,6 +594,7 @@ body:not(.user-is-tabbing) a:focus {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  text-align:center;
 }
 
 /* Position the "next button" to the right */
@@ -651,8 +652,8 @@ body:not(.user-is-tabbing) a:focus {
   position: fixed;
   right: 0;
   bottom: 0;
-  min-width: 50%;
-  min-height: 100%;
+  width: 100%;
+  height: auto;
 }
 
 /* Add some content at the bottom of the video/page */
@@ -694,7 +695,6 @@ body:not(.user-is-tabbing) a:focus {
 .client__logo {
     height: 6.5rem;
     max-width: 18rem;
-	filter: invert(100%) grayscale(100%) opacity(.8);
 }
 
 @media(max-width: 1240px) {
