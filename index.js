@@ -43,14 +43,38 @@ window.addEventListener("scroll", () => {
 });
 
 let slideIndex = 1;
+let slide2Index = 1;
 showSlides(slideIndex);
+showSlides2(slide2Index);
 
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
+function plusSlides2(n) {
+  showSlides2(slide2Index += n);
+}
 
 function currentSlide(n) {
   showSlides(slideIndex = n);
+}
+function currentSlide2(n) {
+  showSlides2(slide2Index = n);
+}
+
+function showSlides2(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides2");
+  let dots = document.getElementsByClassName("dot2");
+  if (n > slides.length) {slide2Index = 1}    
+  if (n < 1) {slide2Index = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slide2Index-1].style.display = "block";  
+  dots[slide2Index-1].className += " active";
 }
 
 function showSlides(n) {
