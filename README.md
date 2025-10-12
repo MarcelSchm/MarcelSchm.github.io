@@ -1,6 +1,6 @@
 # Portfolio Template
 
-### A beautiful minimal and accessible portfolio template for Developers ✨.
+## A beautiful minimal and accessible portfolio template for Developers ✨
 
 To View the live site click [here &rarr;](https://marcelschm.github.io/)
 
@@ -20,12 +20,13 @@ To View the live site click [here &rarr;](https://marcelschm.github.io/)
 
 ![Lighthouse Report](/images/lighthouse-report.png)
 
-### Contributions are warmly welcomed ❤️.
+## Contributions are warmly welcomed ❤️
 
 ## Getting Started 🚀
 
-You'll need [Git](https://git-scm.com) to be installed on your computer. 
-```
+You'll need [Git](https://git-scm.com) to be installed on your computer.
+
+```bash
 # Clone this repository
 $ git clone https://github.com/MarcelSchm/MarcelSchm.github.io
 ```
@@ -34,7 +35,7 @@ If you don't have Git installed or you don't like using the terminal then you ca
 
 ## Editing the Template 🔨
 
-Go to `index.html` and fill your information. 
+Go to `index.html` and fill your information.
 
 ### Header
 
@@ -59,39 +60,39 @@ In all of the places where you're supposed to fill your information you'll find 
 Each div with class `work__box` represents a project, replace the contents of the all the tags with the information of your projects.
 
 ```html
-		  <div class="work__box">
-            <div class="work__text">
-              <h3>Certified Tester Advanced Level - Test Manager (CTAL-TM)</h3>
-              <p>
-                ISTQB Certificate for the Advanced Level - Test Manager
-              </p>
-              <ul class="work__list">
-                <li>Testing process</li>
-                <li>Test management</li>
-                <li>Risk-based testing</li>
-                <li>Test documentation</li>
-                <li>Test estimation</li>
-                <li>Standards and metrics</li>
-                <li>Reviews for the Test Manager</li>
-                <li>Defect management</li>
-                <li>Improving the test process</li>
-                <li>Test tools and automation for the Test Manager</li>
-                <li>People Skills and team composition</li>
-              </ul>
-              <div class="work__links">
-                <a href="https://app.skillsclub.com/credential/10344-c8310b3cb1c649a51098985881e4461b346e44015aec1f7cbacde82531e07c78?locale=de&badge=true" class="link__text">
-                  Visit Digital Badge <span>&rarr;</span>
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/21-CTAL-TM-Digital Badge.png" class="work__image" alt="CTAL-TM" />
-            </div>
-          </div>
-
+  <div class="work__box">
+    <div class="work__text">
+      <h3>Certified Tester Advanced Level - Test Manager (CTAL-TM)</h3>
+      <p>
+        ISTQB Certificate for the Advanced Level - Test Manager
+      </p>
+      <ul class="work__list">
+        <li>Testing process</li>
+        <li>Test management</li>
+        <li>Risk-based testing</li>
+        <li>Test documentation</li>
+        <li>Test estimation</li>
+        <li>Standards and metrics</li>
+        <li>Reviews for the Test Manager</li>
+        <li>Defect management</li>
+        <li>Improving the test process</li>
+        <li>Test tools and automation for the Test Manager</li>
+        <li>People Skills and team composition</li>
+      </ul>
+      <div class="work__links">
+        <a href="https://app.skillsclub.com/credential/10344-c8310b3cb1c649a51098985881e4461b346e44015aec1f7cbacde82531e07c78?locale=de&badge=true" class="link__text">
+          Visit Digital Badge <span>&rarr;</span>
+        </a>
+      </div>
+    </div>
+    <div class="work__image-box">
+      <img src="./images/21-CTAL-TM-Digital Badge.png" class="work__image" alt="CTAL-TM" />
+    </div>
+  </div>
 ```
 
 For changing the screenshot:
+
 - first place the image in `images/` folder and then in HTML replace the name in `src` with the name of your image.
 
 - Recommended size for project image (1366 x 767px) also make sure the size of all  project images is the same.
@@ -165,11 +166,11 @@ For changing the screenshot:
         <div class="contact__info">
           <p>
             Are you looking for a skilled Test Engineer with ISTQB Certificates and a look for details?
-			Or looking for any kind of
-			consultation? or want to ask questions? or have some advice for me
-			or just want to say "Hi 👋" in any case feel free to let me know. I
-			will do my best to respond back. 😊 The quickest way to reach out to
-			me is via an email.
+            Or looking for any kind of
+            consultation? or want to ask questions? or have some advice for me
+            or just want to say "Hi 👋" in any case feel free to let me know. I
+            will do my best to respond back. 😊 The quickest way to reach out to
+            me is via an email.
           </p>
           <!-- Replace the email with yours -->
           <a href="mailto:you@example.com" class="btn">you@example.com</a>
